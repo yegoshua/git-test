@@ -36,11 +36,14 @@ body{
 .menu-item:not(:last-child){
     padding-right: 14px;
 }
-
+.menu-link:hover{
+    color: #256EEB;
+}
 .menu-link{
     text-decoration: none;
     color: #0A143A;
 }
+
 
 .button{
     display: inline-block;
@@ -51,6 +54,10 @@ body{
 
 .button-link{
     color: #0A143A;
+}
+.button-link:hover
+{
+    color:#256EEB;
 }
 
 .button-primary
@@ -159,6 +166,15 @@ body{
 .card-link
 {
     text-decoration: none;
+}
+
+.like-btn-img{
+    background: url("../img/Vector.svg");
+    height: 15px;
+    width: 15px;
+}
+.like-btn-img:hover{
+    background: url("../img/favourite.svg");
 }
 .sidebar-title
 {
@@ -332,6 +348,14 @@ body{
      background-color: #256EEB;
  }
 
+ .button-phone:hover{
+    background-color: #1b51ad;
+ }
+
  .button-mesage{
      background-color: #14B4BE;
+ }
+
+ .button-mesage:hover{
+     background-color: #0f8c95;
  }
