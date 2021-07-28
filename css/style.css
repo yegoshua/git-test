@@ -55,6 +55,7 @@ body{
 
 .button-link{
     color: #0A143A;
+    transition: 0.5s;
 }
 .button-link:hover
 {
