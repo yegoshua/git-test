@@ -42,6 +42,7 @@ body{
 .menu-link{
     text-decoration: none;
     color: #0A143A;
+    transition: 0.5s;
 }
 
 
@@ -137,6 +138,11 @@ body{
     color: #256EEB;
     margin-top: 12px;
     margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.card-title:hover{
+    color: #194eaa;
 }
 
 .card-header{
@@ -172,6 +178,7 @@ body{
     background: url("../img/Vector.svg");
     height: 15px;
     width: 15px;
+    transition: 0.5s;
 }
 .like-btn-img:hover{
     background: url("../img/favourite.svg");
@@ -208,8 +215,12 @@ body{
     display: inline-block;
     margin-bottom: 5px;
     text-decoration: none;
+    transition: 0.5s;
 }
-
+.footer-link:hover, .footer-menu-item>.footer-text:hover
+{
+    color: #256EEB;
+}
 .footer-menu
 {
     margin: 0;
@@ -223,6 +234,7 @@ body{
     text-decoration: none;
     display: inline-block;
     margin-bottom: 5px;
+    transition: 0.5s;
 }
 
 .content{
@@ -346,6 +358,7 @@ body{
 
  .button-phone{
      background-color: #256EEB;
+     transition: 0.5s;
  }
 
  .button-phone:hover{
@@ -354,8 +367,10 @@ body{
 
  .button-mesage{
      background-color: #14B4BE;
+     transition: 0.5s;
  }
 
  .button-mesage:hover{
      background-color: #0f7d85;
+     
  }
