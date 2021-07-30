@@ -13,3 +13,10 @@ var swiper2 = new Swiper(".mySwiper2", {
     swiper: swiper,
   },
 });
+
+const menu = document.querySelector(".navbar-panel")
+const menuBtn = document.querySelector(".menu-button");
+menuBtn.addEventListener("click", ()=>{
+  alert("Вы кликнули по кнопке меню")
+  menu.classList.toggle('is-open');
+})
